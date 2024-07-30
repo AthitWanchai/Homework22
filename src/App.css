@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: white;
+  color: black;
+}
+.darkmode{
+  background-color: black;
+  color: white;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#form{
+  padding: 5em 10em 5em 10em;
+  background-color: #646161;
+  h1{
+    color: #e68a00;
+  }
+  input{
+    width: 15rem;
+    height: 2rem;
+    font-size: large;
+  }
+  #submit{
+    margin: 1rem;
+    color: #ffffff;
+  }
+}
